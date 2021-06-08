@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=67%, initial-scale=1.0">
+    <title>Piano</title>
+    <link rel="stylesheet" href="piano.css">
+    <script src="piano.js" defer> </script>
+
+
+</head>
+<body>
+<div id="bgimg">
+<div align="center" id="div1">
+<h1><span>VIRTUAL PIANO</span></h1>
+</div>
+
+    <div  class="piano"> 
+        <button data-note="a" id="myid" class="key white-key  "></button>
+        <button data-note="v" class="key black-key "></button>
+        <button data-note="b" id="myid1" class="key white-key "></button>
+        <button data-note="w" class="key black-key "></button>
+        <button data-note="c"  id="myid2" class="key white-key "></button>
+        <button data-note="d" id="myid3" class="key white-key "></button>
+        <button data-note="x" class="key black-key "></button>
+        <button data-note="e" id="myid4" class="key white-key "></button>
+        <button data-note="y" class="key black-key "></button>
+        <button data-note="f" id="myid5" class="key white-key "></button>
+        <button data-note="z" class="key black-key "></button>
+        <button data-note="g" id="myid6" class="key white-key "></button>
+        <button data-note="h" id="myid7" class="key white-key "></button>
+        <button data-note="aa" class="key black-key "></button>
+        <button data-note="i" id="myid8" class="key white-key "></button>
+        <button data-note="bb" class="key black-key "></button>
+        <button data-note="j" id="myid9" class="key white-key "></button>
+        <button data-note="k" id="myid10" class="key white-key "></button>
+        <button data-note="cc" class="key black-key "></button>
+        <button data-note="l" id="myid11" class="key white-key "></button>
+        <button data-note="dd"  class="key black-key "></button>
+        <button data-note="m" id="myid12" class="key white-key "></button>
+        <button data-note="ee" class="key black-key "></button>
+        <button data-note="n" id="myid13" class="key white-key "></button>
+        <button data-note="o" id="myid14" class="key white-key "></button>
+        <button data-note="ff" class="key black-key "></button>
+        <button data-note="p" id="myid15" class="key white-key "></button>
+        <button data-note="gg" class="key black-key "></button>
+        <button data-note="q" id="myid16" class="key white-key "></button>
+        <button data-note="r" id="myid17" class="key white-key "></button>
+        <button data-note="hh" class="key black-key "></button>
+        <button data-note="s" id="myid18" class="key white-key "></button>
+        <button data-note="ii" class="key black-key "></button>
+        <button data-note="t" id="myid19" class="key white-key "></button>
+        <button data-note="jj" class="key black-key "></button>
+        <button data-note="u" id="myid20" class="key white-key "></button>
+       
+    </div>
+    <audio src="notes_A.mp3" id="a"></audio>
+    <audio src="notes_Ab.mp3" id="b"></audio>
+    <audio src="notes_B.mp3" id="c"></audio>
+    <audio src="notes_Bb.mp3" id="d"></audio>
+    <audio src="notes_C.mp3" id="e"></audio>
+    <audio src="notes_D.mp3" id="f"></audio>
+    <audio src="notes_Db.mp3" id="g"></audio>
+    <audio src="notes_E.mp3" id="h"></audio>
+    <audio src="notes_Eb.mp3" id="i"></audio>
+    <audio src="notes_F.mp3" id="j"></audio>
+    <audio src="notes_G.mp3" id="k"></audio>
+    <audio src="notes_Gb.mp3" id="l"></audio>
+    <audio src="notes_A.mp3" id="m"></audio>
+    <audio src="notes_Ab.mp3" id="n"></audio>
+    <audio src="notes_B.mp3" id="o"></audio>
+    <audio src="notes_Bb.mp3" id="p"></audio>
+    <audio src="notes_C.mp3" id="q"></audio>
+    <audio src="notes_D.mp3" id="r"></audio>
+    <audio src="notes_Db.mp3" id="s"></audio>
+    <audio src="notes_E.mp3" id="t"></audio>
+    <audio src="notes_Eb.mp3" id="u"></audio>
+    <audio src="notes_F.mp3" id="v"></audio>
+    <audio src="notes_G.mp3" id="w"></audio>
+    <audio src="notes_Gb.mp3" id="x"></audio>
+    <audio src="notes_A.mp3" id="y"></audio>
+    <audio src="notes_Ab.mp3" id="z"></audio>
+    <audio src="notes_B.mp3" id="aa"></audio>
+    <audio src="notes_Bb.mp3" id="bb"></audio>
+    <audio src="notes_C.mp3" id="cc"></audio>
+    <audio src="notes_D.mp3" id="dd"></audio>
+    <audio src="notes_Db.mp3" id="ee"></audio>
+    <audio src="notes_E.mp3" id="ff"></audio>
+    <audio src="notes_Eb.mp3" id="gg"></audio>
+    <audio src="notes_F.mp3" id="hh"></audio>
+    <audio src="notes_G.mp3" id="ii"></audio>
+    <audio src="notes_Gb.mp3" id="jj"></audio>
+
+    <br>
+
+   <div align="center" id="div2" >
+   
+    <p>Want to change color of paino?</p>
+    
+   <button onclick="lightseagreen()" id="mybutton1"></button>
+   <button onclick="lightgoldenyellow()" id="mybutton2"></button>
+   <button onclick="lightcoral()" id="mybutton3"></button>
+   <button onclick="lightskyblue()" id="mybutton4"></button>
+   <button onclick="lightsteelblue()" id="mybutton5"></button>
+   <button onclick="lightpink()" id="mybutton6"></button>
+   
+   </div>
+</div>
+   
+</body>
+</html>
